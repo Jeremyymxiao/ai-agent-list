@@ -1,0 +1,176 @@
+{
+  "Common": {
+    "loading": "loading..."
+  },
+  "Navigation": {
+    "title": "The Most Updated AI Agent List 2025",
+    "discover": "Discover Agents",
+    "submit": "Submit",
+    "newtools": "New Agents",
+    "startup": "Startup",
+    "menu": "menu"
+  },
+  "Footer": {
+    "title": "The Most Updated AI Agent List 2025",
+    "subTitle": "Discover the most comprehensive AI agents directory in 2025!",
+    "support": "Support",
+    "tap4": "Tap4 AI",
+    "tattoo": "AI Tattoo Generator",
+    "privacy": "Privacy policy",
+    "termsConditions": "Terms & Conditions",
+    "contactUs": "Contact Us"
+  },
+  "Faq": {
+    "title": "Frequently Asked Questions",
+    "1": {
+      "question": "What is AI Agent List Directory?",
+      "answer": "AI Agent List Directory - aiagentlist.info is a comprehensive directory that helps you discover and compare AI agents. Our directory includes various types of AI agents including task automation agents, conversational agents, research assistants, coding agents, creative agents, and more. Whether you're looking for personal assistants or enterprise solutions, you'll find detailed information about capabilities, pricing, and user reviews."
+    },
+    "2": {
+      "question": "How to find AI agents in our directory?",
+      "answer-1": "1. Visit aiagentlist.info",
+      "answer-2": "2. Browse through our categorized listings of AI agents",
+      "answer-3": "3. Click on any agent to view detailed information and visit their website"
+    },
+    "3": {
+      "question": "What are the main features of AI Agent List Directory?",
+      "answer-1": "1. Comprehensive Agent Directory: Access detailed information about various AI agents in one place",
+      "answer-2": "2. Startup Showcase: Featured section for innovative new AI agent startups"
+    },
+    "4": {
+      "question": "Is it free to submit AI agents to the directory?",
+      "answer": "Yes, it's currently free to submit your AI agent. We appreciate if you include a backlink to AI Agent List Directory!"
+    },
+    "5": {
+      "question": "What categories of AI agents do you support?",
+      "answer": "We support all major categories of AI agents including task automation, conversation, research, coding, creative work, data analysis, and more. Our categories are regularly updated to reflect new developments in the field."
+    },
+    "6": {
+      "question": "How often is the AI agent list updated?",
+      "answer": "Our directory is updated daily to include new agents and update existing listings."
+    },
+    "7": {
+      "question": "Do you feature advanced AI models like GPT-4 agents?",
+      "answer": "Yes, we feature agents powered by advanced AI models including GPT-4 and other cutting-edge technologies. Each listing includes information about the underlying technology stack."
+    },
+    "8": {
+      "question": "Troubleshooting",
+      "answer": "If you experience any issues accessing the content, try clearing your browser cache or using a different browser. For persistent issues, please contact us at contact@aiagentlist.info."
+    },
+    "9": {
+      "question": "How is the content of AI Agent List Directory maintained?",
+      "answer": "Our directory content is carefully curated by our team and verified with agent developers to ensure accuracy."
+    },
+    "10": {
+      "question": "What are the usage rights of the listed AI agents?",
+      "answer": "AI Agent List Directory is an informational directory. Usage rights for individual agents are determined by their respective developers and platforms."
+    },
+    "11": {
+      "question": "Is the website UI open source?",
+      "answer": "Yes, our website UI will be available as open source on GitHub. We welcome contributions from the community."
+    }
+  },
+  "FooterNavigation": {
+    "privacyPolicy": {
+      "1-h1": "Privacy Policy for AI Agent List Directory",
+      "1-p": "This page informs visitors about our policies regarding the collection, use, and disclosure of Personal Information when using our Service. By using our Service, you agree to the collection and use of information in accordance with this policy.",
+      "2-h2": "1. Information Collection and Use",
+      "2-p": "To provide and improve our Service, we may require certain personally identifiable information. Any information requested will be retained on your device and is not collected by us in any way.",
+      "3-h2": "2. Log Data",
+      "3-p": "We collect log data including your device's Internet Protocol address, browser type, browser version, pages visited, time and date of visits, and other statistics.",
+      "4-h2": "3. Cookies",
+      "4-p": "We use cookies to collect information and improve our services. You can choose to refuse cookies but this may limit your ability to use some portions of our Service.",
+      "5-h2": "4. Service Providers",
+      "5-p-1": "We may employ third-party companies and individuals for:",
+      "5-li-1": "Facilitating our Service",
+      "5-li-2": "Providing service on our behalf",
+      "5-li-3": "Performing Service-related services",
+      "5-li-4": "Analyzing Service usage",
+      "5-p-2": "These third parties have access to your Personal Information only to perform specific tasks and are obligated not to disclose or use it for any other purpose.",
+      "6-h2": "5. Security",
+      "6-p": "We value your trust and strive to use commercially acceptable means to protect your Personal Information. However, no method of transmission over the internet is 100% secure.",
+      "7-h2": "6. Links to Other Sites",
+      "7-p": "Our Service may contain links to other sites. We are not responsible for the content or privacy policies of these sites.",
+      "8-h2": "7. Changes to This Privacy Policy",
+      "8-p": "We may update our Privacy Policy periodically. We will notify you of any changes by posting the new Privacy Policy on this page."
+    },
+    "termsConditions": {
+      "1-h1": "Terms of Service for AI Agent List Directory",
+      "1-p": "Welcome to AI Agent List Directory! By accessing our website at https://aiagentlist.info (\"Website\"), you agree to these Terms of Service (\"Terms\").",
+      "2-h2": "1. Use License",
+      "2-p": "You are granted a limited license to use the Website for personal, non-commercial purposes. Commercial use requires prior written consent.",
+      "3-h2": "2. Content Ownership",
+      "3-p": "The content and information provided on AI Agent List Directory is for informational purposes. Individual AI agents are owned by their respective creators.",
+      "4-h2": "3. User Data Collection",
+      "4-p": "We collect personal and non-personal data to improve our services. Our Privacy Policy governs the use of this data.",
+      "5-h2": "4. Governing Law",
+      "5-p": "These Terms shall be governed by the laws of the United States of America.",
+      "6-h2": "5. Changes to Terms",
+      "6-p": "We reserve the right to modify these Terms at any time. Continued use of the Website constitutes acceptance of modified Terms.",
+      "7-h2": "6. Contact Information",
+      "7-p": "For questions about these Terms, contact us at contact@aiagentlist.info",
+      "last-p": "By using AI Agent List Directory, you accept these Terms of Service."
+    }
+  },
+  "NotFound": {
+    "title": "404 Not Found",
+    "goHome": "go home"
+  },
+  "Home": {
+    "title": "AI Agent List - Your Complete Directory of AI Agents 2025",
+    "subTitle": "Discover and compare the best AI agents in the most comprehensive directory. Updated daily with new agents and features. Submit your AI agent for free to enhance visibility.",
+    "ai-navigate": "AI Agents List",
+    "exploreMore": "Discover More Agents"
+  },
+  "Submit": {
+    "title": "Submit your AI Agent",
+    "subTitle": "List your AI Agent in our directory and reach thousands of potential users",
+    "website": "Agent Name",
+    "url": "Agent URL",
+    "submit": "Submit",
+    "add": "Add",
+    "text": "to your website homepage, and then you can submit your agent for free!",
+    "networkError": "Network Error",
+    "success": "success"
+  },
+  "Startup": {
+    "title": "Launch Your AI Agent Startup",
+    "subTitle": "Comprehensive resources for launching and promoting your AI agent startup. To add your startup to our free listing, email us at contact@aiagentlist.info",
+    "updateTime": "Updated daily. Last updated:",
+    "table": {
+      "da": "DA",
+      "website": "Agent",
+      "tags": "Tags",
+      "price": "Price",
+      "submission": "Submission"
+    },
+    "detail": {
+      "visitWebsite": "Visit Agent",
+      "introduction": "Introduction"
+    }
+  },
+  "Explore": {
+    "title": "Discover The Best AI Agents 2025",
+    "subTitle": "Find your perfect AI agent in our comprehensive directory. Updated daily with new and emerging agents."
+  },
+  "Metadata": {
+    "home": {
+      "title": "AI Agent List | The Most Comprehensive AI Agent Directory",
+      "description": "AI Agent List is your go-to directory for discovering and comparing AI agents. Find the perfect AI agent for your needs, from personal assistants to enterprise solutions.",
+      "keywords": "AI Agent List, AI agents, AI directory, artificial intelligence, AI assistants"
+    },
+    "ai": {
+      "titleSubfix": "AI Agent List Directory"
+    },
+    "explore": {
+      "title": "Explore AI Agents 2025 | AI Agent List Directory",
+      "titlePrefix": "AI Agent List Directory Explore",
+      "titleSuffix": "AI Agent List Directory",
+      "description": "Explore the most comprehensive collection of AI agents. Find, compare, and choose the perfect AI agent for your needs.",
+      "keywords": "AI agents, AI assistants, AI directory, artificial intelligence, agent comparison"
+    },
+    "submit": {
+      "title": "Submit Your AI Agent | AI Agent List Directory"
+    }
+  }
+}
