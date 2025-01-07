@@ -16,8 +16,10 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     namespace: 'Metadata.home',
   });
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aiagentlist.info';
+
   return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL as string),
+    metadataBase: new URL(baseUrl),
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
