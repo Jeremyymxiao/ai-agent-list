@@ -6,6 +6,7 @@ import Navigation from '@/components/home/Navigation';
 import './globals.css';
 
 import { Suspense } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 import GoogleAdScript from '@/components/ad/GoogleAdScript';
 import SeoScript from '@/components/seo/SeoScript';
@@ -37,7 +38,10 @@ export default function RootLayout({
             }}
           />
           <Navigation />
-          <Suspense fallback={<Loading />}>{children}</Suspense>
+          <Suspense fallback={<Loading />}>
+            {children}
+            <Analytics />
+          </Suspense>
         </NextIntlClientProvider>
         <SeoScript />
         <GoogleAdScript />
