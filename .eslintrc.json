@@ -19,8 +19,26 @@
     "function-paren-newline": "off",
     "max-len": "off",
     "implicit-arrow-linebreak": "off",
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "variable",
+        "format": ["camelCase", "PascalCase", "UPPER_CASE"],
+        "leadingUnderscore": "allow"
+      }
+    ],
+    "@next/next/no-img-element": "error",
     "operator-linebreak": "off",
     "react/require-default-props": "off",
     "object-curly-newline": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["utils/logger.ts"],
+      "rules": {
+        "no-console": "off"
+      }
+    }
+  ]
 }
