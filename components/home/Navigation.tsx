@@ -8,7 +8,6 @@ import { useTranslations } from 'next-intl';
 import { NAV_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
-import BaseImage from '../image/BaseImage';
 import LocaleSwitcher from '../LocaleSwitcher';
 import MenuBtn from './MenuBtn';
 import NavigationDrawer from './NavigationDrawer';
@@ -30,14 +29,9 @@ export default function Navigation() {
         <nav className='mx-auto flex max-w-pc flex-1 items-center'>
           <div>
             <Link className='hover:opacity-80' href='/' title={t('title')}>
-              <BaseImage
-                src='/images/tap4-ai.svg'
-                alt={t('title')}
-                title={t('title')}
-                width={64}
-                height={64}
-                className='size-[58px] lg:size-16'
-              />
+              <span className='animate-gradient-shift bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-2xl font-bold text-transparent hover:from-blue-500 hover:via-purple-600 hover:to-cyan-400 lg:text-3xl'>
+                AI Agent List
+              </span>
             </Link>
           </div>
           {/* pc */}

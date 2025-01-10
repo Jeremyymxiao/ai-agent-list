@@ -44,12 +44,25 @@ export default async function Page() {
   return (
     <div className='relative w-full'>
       <div className='relative mx-auto w-full max-w-pc flex-1 px-3 lg:px-0'>
-        <div className='my-5 flex flex-col text-center lg:mx-auto lg:my-10 lg:gap-1'>
-          <h1 className='text-2xl font-bold text-white lg:text-5xl'>{t('title')}</h1>
-          <h2 className='text-balance text-xs font-bold text-white lg:text-sm'>{t('subTitle')}</h2>
+        <div className='relative my-12 flex flex-col items-center text-center lg:my-24'>
+          <div className='absolute inset-0 -z-10 rounded-3xl bg-gradient-to-b from-purple-500/20 via-blue-500/20 to-transparent blur-3xl' />
+          <h1 className='animate-fade-in text-4xl font-bold lg:text-7xl'>
+            <span className='bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent'>
+              {t('title')}
+            </span>
+          </h1>
+          <div className='mt-6 max-w-3xl lg:mt-8'>
+            <h2 className='animate-fade-in-delayed text-balance text-base font-medium text-gray-200/90 lg:text-xl'>
+              {t('subTitle')}
+            </h2>
+          </div>
+          <div className='absolute -left-4 top-0 h-72 w-72 animate-blob rounded-full bg-purple-500 opacity-20 mix-blend-multiply blur-xl filter' />
+          <div className='animation-delay-2000 absolute -right-4 top-0 h-72 w-72 animate-blob rounded-full bg-blue-500 opacity-20 mix-blend-multiply blur-xl filter' />
         </div>
         <div className='flex w-full items-center justify-center'>
-          <SearchForm />
+          <div className='w-full max-w-2xl animate-fade-in-delayed'>
+            <SearchForm />
+          </div>
         </div>
         <div className='mb-10 mt-5'>
           {categoryList && categoryList.length > 0 ? (

@@ -45,11 +45,11 @@ export default function SearchForm({ defaultSearch }: { defaultSearch?: string }
                   <Input
                     placeholder={t('search')}
                     {...field}
-                    className='h-8 w-full rounded-full border border-white/40 !bg-transparent pr-10 placeholder:text-white/40 lg:h-[38px] lg:w-[392px] lg:pr-12'
+                    className='h-12 w-full rounded-full border border-white/40 !bg-transparent px-6 pr-12 text-base placeholder:text-white/40 focus:border-white/60 focus:ring-1 focus:ring-white/60 lg:h-14 lg:text-lg'
                   />
-                  <Separator className='absolute right-8 h-6 w-px bg-white/40 lg:right-10' orientation='vertical' />
-                  <button type='submit' className='absolute right-2 lg:right-3'>
-                    <Search className='size-[18px] lg:size-5' />
+                  <Separator className='absolute right-12 h-6 w-px bg-white/40 lg:right-14' orientation='vertical' />
+                  <button type='submit' className='absolute right-4 lg:right-5'>
+                    <Search className='h-5 w-5 hover:text-white lg:h-6 lg:w-6' />
                     <span className='sr-only'>search</span>
                   </button>
                 </div>
