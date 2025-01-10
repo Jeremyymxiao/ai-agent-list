@@ -8,6 +8,8 @@ import { Separator } from '@/components/ui/separator';
 import BaseImage from '@/components/image/BaseImage';
 import MarkdownProse from '@/components/MarkdownProse';
 
+export const runtime = 'edge';
+
 export async function generateMetadata({
   params: { locale, websiteName },
 }: {

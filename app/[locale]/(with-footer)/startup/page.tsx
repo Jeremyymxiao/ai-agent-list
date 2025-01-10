@@ -7,6 +7,8 @@ import Faq from '@/components/Faq';
 import DesktopTable from './DesktopTable';
 import MobileTable from './MobileTable';
 
+export const runtime = 'edge';
+
 export default function Page() {
   const t = useTranslations('Startup');
 

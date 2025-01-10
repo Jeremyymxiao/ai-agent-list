@@ -7,6 +7,8 @@ import Faq from '@/components/Faq';
 
 import SubmitForm from './SubmitForm';
 
+export const runtime = 'edge';
+
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({
     locale,

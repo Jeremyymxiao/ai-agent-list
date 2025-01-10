@@ -5,6 +5,8 @@ import logger from '@/utils/logger';
 
 import crawler from './crawler';
 
+export const runtime = 'edge';
+
 // submit table empty -> stop
 
 // filter status

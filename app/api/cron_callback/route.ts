@@ -3,6 +3,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/db/supabase/client';
 import logger from '@/utils/logger';
 
+export const runtime = 'edge';
+
 // submit table empty -> stop
 
 // filter status
@@ -32,8 +34,7 @@ export async function POST(req: NextRequest) {
     }
 
     // get response data
-    const { description, detail, name, screenshotData, screenshotThumbnailData, tags, title, url } =
-      await req.json();
+    const { description, detail, name, screenshotData, screenshotThumbnailData, tags, title, url } = await req.json();
 
     const supabase = createClient();
 

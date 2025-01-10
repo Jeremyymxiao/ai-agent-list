@@ -8,6 +8,8 @@ import { InfoPageSize, RevalidateOneHour } from '@/lib/constants';
 
 import Content from './Content';
 
+export const runtime = 'edge';
+
 export const revalidate = RevalidateOneHour * 6;
 
 export async function generateMetadata({ params }: { params: { code: string } }): Promise<Metadata> {

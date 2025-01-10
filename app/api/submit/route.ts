@@ -12,6 +12,8 @@ import { createClient } from '@/db/supabase/client';
 // insert web_nav table (tags <- tags[0] or 'other')
 // update submit table status
 
+export const runtime = 'edge';
+
 export async function POST(req: NextRequest) {
   try {
     // Get Authorization
