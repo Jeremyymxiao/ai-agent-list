@@ -18,7 +18,8 @@
     "tattoo": "AI Tattoo Generator",
     "privacy": "Privacy policy",
     "termsConditions": "Terms & Conditions",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "rights": "All rights reserved."
   },
   "Faq": {
     "title": "Frequently Asked Questions",
@@ -120,7 +121,10 @@
     "title": "AI Agent List - Your Complete Directory of AI Agents 2025",
     "subTitle": "Discover and compare the best AI agents in the most comprehensive directory. Updated daily with new agents and features. Submit your AI agent for free to enhance visibility.",
     "ai-navigate": "AI Agents List",
-    "exploreMore": "Discover More Agents"
+    "exploreMore": "Discover More Agents",
+    "more": "More",
+    "checkDetail": "View Details",
+    "search": "Search"
   },
   "Submit": {
     "title": "Submit your AI Agent",

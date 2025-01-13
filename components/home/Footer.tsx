@@ -9,58 +9,25 @@ function InfoLink({
   title,
   target,
   type,
+  className = '',
 }: {
   href: string;
   title: string;
   target?: HTMLAttributeAnchorTarget;
   type?: string;
+  className?: string;
 }) {
   return (
-    <Link
-      href={href}
-      title={title}
-      className='whitespace-nowrap text-xs hover:opacity-70 lg:text-sm'
-      target={target}
-      type={type}
-    >
+    <Link href={href} title={title} className={`text-sm font-medium ${className}`} target={target} type={type}>
       {title}
     </Link>
   );
 }
 
 export default function Footer() {
-  const t = useTranslations('Footer');
+  'use client';
 
-  const SupportLinks = [
-    {
-      title: 'Chat o1',
-      href: 'https://chat4o.ai/',
-    },
-    {
-      title: 'Grok Image Generator',
-      href: 'https://grokimagegenerator.net/',
-    },
-    {
-      title: 'Flux AI Image Generator',
-      href: 'https://flux-ai.io/',
-    },
-    {
-      title: 'Photo to Video AI',
-      href: 'https://dreammachineai.online/',
-    },
-    {
-      title: 'Flux Pro Image Generator',
-      href: 'https://flux-pro.net/',
-    },
-    {
-      title: t('tap4'),
-      href: 'https://tap4.ai/',
-    },
-    {
-      title: t('tattoo'),
-      href: 'https://tattooai.design/',
-    },
-  ];
+  const t = useTranslations('Footer');
 
   const INFO_LIST = [
     {
@@ -74,41 +41,43 @@ export default function Footer() {
   ];
 
   return (
-    <footer className='w-full bg-[#15141A]'>
-      <div className='mx-auto flex min-h-[251px] max-w-pc flex-col items-center justify-between p-10 pb-5 lg:h-[180px] lg:flex-row lg:px-0 lg:pb-10'>
-        <div className='flex flex-col items-center lg:items-stretch'>
-          <p className='text-xl font-bold text-white lg:h-8 lg:text-[32px]'>{t('title')}</p>
-          <p className='text-xs'>{t('subTitle')}</p>
-        </div>
-        <div className='mt-5 flex flex-col items-center gap-y-5 lg:mt-0 lg:flex-row lg:items-stretch lg:gap-x-10'>
-          <div className='flex w-full flex-col gap-2'>
-            <p className='font-bold'>{t('support')}</p>
-            {SupportLinks.map((item) => (
-              <a
-                href={item.href}
-                key={item.href}
-                target='_blank'
-                rel='noreferrer'
-                className='text-xs hover:opacity-70 lg:text-sm'
-                title={item.title}
-              >
-                {item.title}
-              </a>
-            ))}
+    <footer className='w-full border-t border-gray-800/30 bg-[#15141A]/80 backdrop-blur-sm'>
+      <div className='mx-auto max-w-pc px-6 py-10'>
+        <div className='flex flex-col items-center space-y-8 lg:flex-row lg:items-center lg:justify-between lg:space-y-0'>
+          {/* Logo and Description */}
+          <div className='text-center lg:text-left'>
+            <h2 className='mb-2 text-2xl font-bold text-white transition-colors hover:text-gray-200 lg:text-3xl'>
+              {t('title')}
+            </h2>
+            <p className='max-w-md text-sm text-gray-400/90'>{t('subTitle')}</p>
           </div>
-          <div className='grid grid-cols-2 gap-x-10 gap-y-5 lg:grid-cols-1 lg:gap-3'>
+
+          {/* Links Section */}
+          <nav className='flex items-center space-x-8'>
             {INFO_LIST.map((item) => (
-              <InfoLink key={item.href} href={item.href} title={item.title} />
+              <InfoLink
+                key={item.href}
+                href={item.href}
+                title={item.title}
+                className='text-gray-300 transition-colors hover:text-white'
+              />
             ))}
             <a
               href={`mailto:${CONTACT_US_EMAIL}`}
-              className='whitespace-nowrap text-xs hover:opacity-70 lg:text-sm'
+              className='text-sm font-medium text-gray-300 transition-colors hover:text-white'
               title={t('contactUs')}
               type='email'
             >
               {t('contactUs')}
             </a>
-          </div>
+          </nav>
+        </div>
+
+        {/* Copyright Line */}
+        <div className='mt-8 border-t border-gray-800/30 pt-8'>
+          <p className='text-center text-xs text-gray-500/90'>
+            {new Date().getFullYear()} AI Agent List. {t('rights')}
+          </p>
         </div>
       </div>
     </footer>
