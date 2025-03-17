@@ -1,8 +1,8 @@
 import Script from 'next/script';
 
-import { GOOGLE_TRACKING_ID } from '@/lib/env';
-
 export default function SeoScript() {
+  const GOOGLE_TRACKING_ID = 'G-KZBVZWY9KM';
+
   return (
     <>
       <Script strategy='afterInteractive' src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TRACKING_ID}`} />
